@@ -4,6 +4,7 @@ import './App.css';
 
 import Clock from './components/Clock';
 import Toggle from './components/Toggle';
+import LoginControl from './components/LoginControl';
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
       <div>
         <h2>Manejando eventos</h2>
         <Toggle />
+      </div>
+      <div>
+        <h2>Renderizado condicional</h2>
+        <LoginControl />
       </div>
     </div>
   );
