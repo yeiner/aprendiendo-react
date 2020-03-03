@@ -5,10 +5,11 @@ import './App.css'
 import Clock from './components/Clock'
 import Toggle from './components/Toggle'
 import LoginControl from './components/LoginControl'
+import Page from './components/Page/Page'
 
 function App () {
   return (
-    <div className='App'>
+    <div className="App">
       <h1>Hello, {formatName(user)}</h1>
       <Clock />
       <div>
@@ -23,8 +24,13 @@ function App () {
         <h2>If en una línea con operador lógico && </h2>
         <MailBox unreadMessages={messages} />
       </div>
+      <div>
+        <br />
+        <h2>Evitar que el componente se renderice. </h2>
+        <Page />
+      </div>
     </div>
-  )
+  );
 }
 
 function formatName (user) {
