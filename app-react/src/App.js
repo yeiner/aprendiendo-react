@@ -6,6 +6,7 @@ import Clock from './components/Clock'
 import Toggle from './components/Toggle'
 import LoginControl from './components/LoginControl'
 import Page from './components/Page/Page'
+import NameForm from './components/Formulario/NameForm'
 
 function App () {
   return (
@@ -28,6 +29,12 @@ function App () {
         <br />
         <h2>Evitar que el componente se renderice. </h2>
         <Page />
+      </div>
+      <br />
+      <br />
+      <div>
+        <h2>Formularios</h2>
+        <NameForm />
       </div>
     </div>
   );
