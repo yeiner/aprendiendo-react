@@ -7,6 +7,9 @@ import Toggle from './components/Toggle'
 import LoginControl from './components/LoginControl'
 import Page from './components/Page/Page'
 import NameForm from './components/Formulario/NameForm'
+import TextArea from './components/Formulario/TextArea'
+import FlavorForm from './components/Formulario/FlavorForm'
+import Reservation from './components/Formulario/Reservation'
 
 function App () {
   return (
@@ -35,6 +38,13 @@ function App () {
       <div>
         <h2>Formularios</h2>
         <NameForm />
+        <br />
+        <TextArea />
+        <br />
+        <FlavorForm />
+        <br />
+        <Reservation />
+        
       </div>
     </div>
   );
